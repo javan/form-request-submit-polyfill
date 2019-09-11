@@ -1,0 +1,19 @@
+{
+  "name": "form-request-submit-polyfill",
+  "version": "1.0.0",
+  "description": "<form>.requestSubmit() polyfill",
+  "main": "form-request-submit-polyfill.js",
+  "files": [
+    "form-request-submit-polyfill.js"
+  ],
+  "keywords": [
+    "html",
+    "form",
+    "polyfill"
+  ],
+  "author": "Javan Makhmali <javan@javan.us> (https://javan.us)",
+  "repository": "javan/form-request-submit-polyfill",
+  "bugs": "https://github.com/javan/form-request-submit-polyfill/issues",
+  "homepage": "https://github.com/javan/form-request-submit-polyfill#readme",
+  "license": "MIT"
+}
