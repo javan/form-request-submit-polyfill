@@ -5,8 +5,6 @@
     if (submitter) {
       validateSubmitter(submitter, this)
       submitter.click()
-    } else if (submitter = findSubmitter(this)) {
-      submitter.click()
     } else {
       submitter = document.createElement("input")
       submitter.type = "submit"
@@ -25,16 +23,5 @@
 
   function raise(errorConstructor, message, name) {
     throw new errorConstructor("Failed to execute 'requestSubmit' on 'HTMLFormElement': " + message + ".", name)
-  }
-
-  function findSubmitter(form) {
-    var inputs = form.elements
-    var index = inputs.length
-    while (index--) {
-      var input = inputs[index]
-      if (input.type == "submit" && !input.disabled) {
-        return input
-      }
-    }
   }
 })(HTMLFormElement.prototype);
