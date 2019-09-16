@@ -1,6 +1,6 @@
 {
   "name": "form-request-submit-polyfill",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "<form>.requestSubmit() polyfill",
   "main": "form-request-submit-polyfill.js",
   "files": [
