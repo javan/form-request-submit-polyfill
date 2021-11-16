@@ -11,6 +11,7 @@
       submitter.hidden = true
       this.appendChild(submitter)
       submitter.click()
+      submitter.onclick = (e) => e.stopPropagation()
       this.removeChild(submitter)
     }
   }
